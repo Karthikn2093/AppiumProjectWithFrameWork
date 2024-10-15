@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-11T14:07:07 IST" name="Default suite" finished-at="2024-04-11T14:08:01 IST" duration-ms="53204">
+    <groups>
+    </groups>
+    <test started-at="2024-04-11T14:07:07 IST" name="Default test" finished-at="2024-04-11T14:08:01 IST" duration-ms="53204">
+      <class name="pageObject.tests.LoginTest">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:pageObject.tests.LoginTest@209da20d]" started-at="2024-04-11T14:07:07 IST" name="configureAppium" finished-at="2024-04-11T14:07:24 IST" duration-ms="16247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObject.tests.LoginTest@209da20d]" started-at="2024-04-11T14:07:24 IST" name="loginTest" data-provider="getData" finished-at="2024-04-11T14:07:41 IST" duration-ms="16863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Argentina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObject.tests.LoginTest@209da20d]" started-at="2024-04-11T14:07:41 IST" name="tearDown" finished-at="2024-04-11T14:07:41 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:pageObject.tests.LoginTest@209da20d]" started-at="2024-04-11T14:07:41 IST" name="configureAppium" finished-at="2024-04-11T14:07:48 IST" duration-ms="7234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObject.tests.LoginTest@209da20d]" started-at="2024-04-11T14:07:48 IST" name="loginTest" data-provider="getData" finished-at="2024-04-11T14:08:00 IST" duration-ms="11712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Angola]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObject.tests.LoginTest@209da20d]" started-at="2024-04-11T14:08:00 IST" name="tearDown" finished-at="2024-04-11T14:08:01 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageObject.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
